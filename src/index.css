@@ -1,0 +1,36 @@
+* {
+  font-family: "Inter Semi Bold";
+}
+
+.tweet {
+  background: aquamarine;
+  border: 2px solid aqua;
+  padding: 8px;
+  width: fit-content;
+  max-width: 320px;
+}
+
+.tweet h1,
+.tweet h2,
+.tweet h3 {
+  margin: 8px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.tweet-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.delete{
+
+}
+.tweet-form{
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap:8px;
+  margin-bottom: 32px;
+}
